@@ -4,6 +4,8 @@ body
     margin: 0;
     max-width: 520px;
 }
+
+/* Header */
 header
 {
     font-family: 'Raleway';
@@ -56,3 +58,4 @@ nav
     display: flex;
     align-items: center;
 }
+/* Header Fin*/
