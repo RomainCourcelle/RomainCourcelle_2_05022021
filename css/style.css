@@ -59,4 +59,48 @@ section
     font-weight: bold;
 }
 
+#bloc_filtre
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titre_filtre
+{
+    margin: 0px 210px 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.boutton_header
+{
+    cursor: pointer;
+    height: 55px;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid rgb(224, 224, 224);
+}
+.test
+{
+    margin-right: 15px;
+    margin-left: 15px;
+    align-self: center;
+}
+.bout_filtre
+{
+    font-size: large;
+    margin: -2px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
 /* Body Fin */
