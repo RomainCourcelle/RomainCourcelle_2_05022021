@@ -98,7 +98,7 @@ section
 }
 .bout_filtre
 {
-    font-size: large;
+    
     margin: -5px;
     width: 52px;
     height: 52px;
@@ -108,6 +108,7 @@ section
     border-radius: 100%;
     color: #0065FC;
     background-color: #DEEBFF;
+    font-size: large;
 }
 
 #bloc_information
