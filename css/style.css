@@ -74,7 +74,7 @@ section
 .boutton_header
 {
     cursor: pointer;
-    height: 55px;
+    height: 50px;
     margin: 5px;
     padding: 0;
     display: flex;
@@ -93,9 +93,9 @@ section
 .bout_filtre
 {
     font-size: large;
-    margin: -2px;
-    width: 55px;
-    height: 55px;
+    margin: -5px;
+    width: 52px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,4 +103,17 @@ section
     color: #0065FC;
     background-color: #DEEBFF;
 }
-/* Body Fin */
+
+#bloc_information
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bout_info
+{
+    font-size: 25px;
+    margin-right: 10px;
+}
+/* Body Fin */ 
