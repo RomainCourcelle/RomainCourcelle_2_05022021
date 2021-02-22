@@ -83,6 +83,12 @@ section
     border-radius: 50px;
     background-color: white;
     border: 2px solid rgb(224, 224, 224);
+    transition-duration: 300ms;
+}
+.boutton_header:hover
+{
+    background-color: #F2F2F2;
+    transform: scale(1.025);
 }
 .test
 {
