@@ -64,6 +64,7 @@ section
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .titre_filtre
 {
@@ -82,8 +83,8 @@ section
     align-items: center;
     border-radius: 50px;
     background-color: white;
-    border: 2px solid rgb(224, 224, 224);
-    transition-duration: 300ms;
+    border: 2px solid #d9d9d9;
+    transition-duration: all 300ms;
 }
 .boutton_header:hover
 {
@@ -98,16 +99,18 @@ section
 }
 .bout_filtre
 {
-    
-    margin: -5px;
-    width: 52px;
-    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: -5px;
     border-radius: 100%;
     color: #0065FC;
     background-color: #DEEBFF;
+    width: 52px;
+    height: 52px;
+}
+.icon_filtre
+{
     font-size: large;
 }
 
@@ -122,5 +125,6 @@ section
 {
     font-size: 25px;
     margin-right: 10px;
+    color: #0065FC;
 }
 /* Body Fin */ 
