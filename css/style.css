@@ -2,7 +2,7 @@ body
 {
     padding: 0;
     margin: 0;
-    max-width: 520px;
+    max-width: 500px;
     font-family: 'Raleway', sans-serif;
 }
 a
@@ -11,17 +11,33 @@ a
     text-decoration: none;
 }
 
+p
+{
+    margin: 10px 0;
+}
 /* Body */
 h1
 {
-    font-size: 200%;
-    font-weight: Bold;
+    font-size: x-large;
+    font-weight: bold;
+}
+h3
+{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.note_etoile
+{
+    color: #0065FC;
 }
 section
 {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* bloc_recherche */
 #form_recherche
 {
     display: flex;
@@ -58,7 +74,9 @@ section
     color: rgb(133, 133, 133);
     font-weight: bold;
 }
+/* Fin bloc_recherche */
 
+/* bloc_Filtres */
 #bloc_filtre
 {
     margin-top: 20px;
@@ -113,7 +131,9 @@ section
 {
     font-size: large;
 }
+/* Fin bloc_Filtres */
 
+/* bloc_Information */
 #bloc_information
 {
 
@@ -127,6 +147,59 @@ section
     margin-right: 10px;
     color: #0065FC;
 }
+/* Fin bloc_information */
+
+/* bloc_populaires */
+#populaires
+{
+    padding-top: 20px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bloc_align_center
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#head_populaires
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_pop
+{
+    font-size: x-large;
+}
+.bloc_reservation_populaires
+{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.img
+{
+    width: 185px;
+}
+.description
+{
+
+    margin: 5px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+/* Fin bloc_populaires */
 
 
 /* Body Fin */ 
