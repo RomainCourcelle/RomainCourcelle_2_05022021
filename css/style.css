@@ -113,7 +113,10 @@ h3
     color: #0065FC;
 }
 
-
+#header_body
+{
+    padding: 0px 20px;
+}
 /* bloc_recherche */
 #form_recherche
 {
