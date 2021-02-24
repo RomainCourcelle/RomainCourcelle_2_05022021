@@ -1,0 +1,45 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    max-width: 500px;
+    font-family: 'Raleway', sans-serif;
+}
+a
+{
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+p
+{
+    margin: 10px 0;
+}
+/* footer */
+footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    margin-bottom: 5px;
+}
+.bloc_footer
+{
+    margin: 0;
+    padding: 10px 0px 0px 20px; 
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Fin footer */
