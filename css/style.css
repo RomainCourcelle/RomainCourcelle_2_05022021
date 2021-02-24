@@ -6,12 +6,12 @@ body
     max-width: 500px;
     font-family: 'Raleway', sans-serif;
 }
-
 a
 {
     color: inherit;
     text-decoration: none;
 }
+
 /* Header */
 header
 {
@@ -65,3 +65,274 @@ nav
     align-items: center;
 }
 /* Header Fin*/
+
+p
+{
+    margin: 10px 0;
+}
+/* Body */
+h1
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+h3
+{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.note_etoile
+{
+    color: #0065FC;
+}
+section
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* bloc_recherche */
+#form_recherche
+{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DEEBFF;
+    border-radius: 15px;
+}
+#loca_recherche
+{
+    border: none;
+    width: 12%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#submit_recherche
+{
+    border: none;
+    width: 13%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    background-color: #0065FC;
+    color: white;
+}
+#input_recherche
+{
+
+    padding: 0 15px;
+    border: none;
+    width: 75%;
+}
+#input_recherche::placeholder
+{
+    color: black;
+    font-weight: bold;
+}
+/* Fin bloc_recherche */
+
+/* bloc_Filtres */
+#bloc_filtre
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.titre_filtre
+{
+    margin: 0px 180px 10px 0px; /*Priviligier le display column et rajouter une div */
+    display: flex;
+    align-items: center;
+}
+.boutton_header
+{
+    cursor: pointer;
+    height: 50px;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid #d9d9d9;
+    transition-duration: 300ms;
+}
+.boutton_header:hover
+{
+    background-color: #F2F2F2;
+    transform: scale(1.025);
+}
+.titre_filtre
+{
+    margin: auto 15px;
+}
+.bout_filtre
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -5px;
+    border-radius: 100%;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 52px;
+    height: 52px;
+}
+.icon_filtre
+{
+    font-size: large;
+}
+/* Fin bloc_Filtres */
+
+/* bloc_Information */
+#bloc_information
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bout_info
+{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #0065FC;
+}
+/* Fin bloc_information */
+
+/* bloc_populaires */
+#populaires
+{
+    padding-top: 20px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bloc_align_center
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#head_populaires
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_pop
+{
+    font-size: x-large;
+}
+.bloc_reservation_populaires
+{
+    cursor: pointer;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition-duration: 500ms;
+}
+.bloc_reservation_populaires:hover
+{
+    transform: scale(1.025);
+}
+.img
+{
+    width: 185px;
+}
+.description_pop
+{
+
+    margin: 5px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* Fin bloc_populaires */
+
+/* Bloc hebergement */
+#hebergements
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#head_hebergements
+{
+    display: flex;
+    align-self: flex-start;
+}
+.bloc_reservation_hebergements_activites
+{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px 5px #d9d9d9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    transition-duration:  500ms;
+}
+
+.bloc_reservation_hebergements_activites:hover
+{
+    transform: scale(1.025);
+}
+.img_hebergement
+{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 65%;
+}
+#more_heb
+{
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+/* Fin bloc hebergement */
+
+/* Activites */
+
+#activites
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#head_activites
+{
+    display: flex;
+    align-self: flex-start;
+}
+.img_activites
+{
+    width: 100%;
+    height: 75%;
+}
+
+#titre_activites
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* Fin activites */
+/* Body Fin */ 
